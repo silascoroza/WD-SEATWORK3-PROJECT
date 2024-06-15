@@ -1,168 +1,256 @@
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #f8f9fa;
 }
 
 h1 {
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
 }
 
 a {
     display: block;
-    text-align: center;
     margin: 20px;
-    text-decoration: none;
+    text-align: center;
     color: #007bff;
+    text-decoration: none;
 }
 
-section.name h1 {
-    margin: 20px;
+a:hover {
+    text-decoration: underline;
+}
+
+section.name {
+    margin: 40px 0;
     text-align: center;
-    font-size: 1.5em;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    border-radius: 8px;
-}
-
-header .box {
-    display: flex;
-    align-items: center;
-}
-
-header .box img {
-    height: 50px;
-    margin-right: 10px;
-}
-
-header .box p {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 0;
-}
-
-nav {
-    display: flex;
-    gap: 10px;
-}
-
-nav button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-nav button:hover {
-    background-color: #0056b3;
-}
-
-nav button:active {
-    transform: scale(0.95);
-}
-
-/* Design 1 specific styles */
+/* Design 1 */
 .design1 {
-    background-color: #ffecb3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffebee;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Design 2 specific styles */
+.design1 .box img {
+    width: 50px;
+    height: auto;
+}
+
+.design1 p {
+    margin: 10px 0;
+    color: #b71c1c;
+    font-size: 20px;
+}
+
+.design1 nav button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.design1 nav button:hover {
+    background-color: #b71c1c;
+}
+
+/* Design 2 */
 .design2 {
-    background-color: #ffe0b2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a6476d;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.design2 .box#box3 .icon-container img {
-    height: 30px;
+.design2 .box img {
+    width: 50px;
+    height: auto;
 }
 
-/* Design 3 specific styles */
+.design2 p {
+    margin: 10px 0;
+    color: #963158;
+    font-size: 20px;
+}
+
+.design2 nav button {
+    background-color: #00838f;
+    color: rgb(16, 0, 0);
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.design2 nav button:hover {
+    background-color: #691e20;
+}
+
+/* Design 3 */
 .design3 {
-    background-color: #dcedc8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #55202a;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .design3 .image-container img {
-    height: 50px;
+    width: 50px;
+    height: auto;
 }
 
-/* Design 4 specific styles */
+.design3 nav button {
+    background-color: #942b4e;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.design3 nav button:hover {
+    background-color: #558b2f;
+}
+
+/* Design 4 */
 .design4 {
-    background-color: #f0f4c3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a42a34;
+    font-family: 'Lato', sans-serif;
 }
 
-.design4 .image-containera img {
-    height: 50px;
+.design4 .box img {
+    width: 50px;
+    height: auto;
+}
+
+.design4 p {
+    margin: 10px 0;
+    color: #ab395d;
+    font-size: 20px;
+}
+
+.design4 input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
 }
 
 .design4 .icon-container img {
-    height: 30px;
+    width: 30px;
+    height: auto;
 }
 
-/* Design 5 specific styles */
+/* Design 5 */
 .design5 {
-    background-color: #f8bbd0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #661818;
+    font-family: 'Nunito', sans-serif;
 }
 
-.design5 .icon-containerr img,
-.design5 .icon-containert img,
-.design5 .icon-containerx img {
-    height: 30px;
+.design5 .box img {
+    width: 50px;
+    height: auto;
 }
 
-/* Design 6 specific styles */
+.design5 nav button {
+    background-color: #f20f40;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.design5 nav button:hover {
+    background-color: #f4511e;
+}
+
+.design5 .box .icon-containerr img,
+.design5 .box .icon-containert img,
+.design5 .box .icon-containerx img {
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
+
+/* Animated Header Designs */
+/* Design 6 */
 .design6 {
-    background-color: #c8e6c9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c3385f;
+    font-family: 'Raleway', sans-serif;
 }
 
 .design6 .box img {
-    transition: transform 0.3s;
+    width: 50px;
+    height: auto;
+    transition: transform 0.5s;
 }
 
 .design6 .box img:hover {
-    transform: rotate(20deg);
+    transform: rotate(10deg);
 }
 
-.design6 .box p {
-    cursor: pointer;
-    transition: font-size 0.3s, color 0.3s;
+.design6 p {
+    margin: 10px 0;
+    color: #510e17;
+    font-size: 20px;
+    transition: color 0.5s, font-size 0.5s;
 }
 
-.design6 .box p:active {
-    font-size: 1.5em;
-    color: #007bff;
+.design6 p:hover {
+    color: #0a0203;
+    font-size: 22px;
 }
 
 .design6 nav button {
-    transition: background-color 0.3s, transform 0.3s;
+    background-color: #c82571;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.2s, background-color 0.2s;
 }
 
 .design6 nav button:hover {
-    background-color: #0056b3;
-}
-
-.design6 nav button:active {
     transform: scale(1.1);
+    background-color: #ffb300;
 }
 
-/* Design 7 specific styles */
+/* Design 7 */
 .design7 {
-    background-color: #ffccbc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a82f57;
+    font-family: 'Roboto Slab', serif;
 }
 
 .design7 .box img {
+    width: 50px;
+    height: auto;
     transition: transform 0.5s;
 }
 
@@ -170,30 +258,38 @@ nav button:active {
     transform: translateY(-10px);
 }
 
-.design7 .box p {
-    cursor: pointer;
-    transition: font-size 0.3s, color 0.3s;
-}
-
-.design7 .box p:hover {
-    font-size: 1.5em;
-    color: #007bff;
+.design7 p {
+    margin: 10px 0;
+    color: #aa245c;
+    font-size: 20px;
 }
 
 .design7 nav button {
-    transition: transform 0.3s;
+    background-color: #bc4793;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.2s;
 }
 
 .design7 nav button:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
-/* Design 8 specific styles */
+/* Design 8 */
 .design8 {
-    background-color: #ffeb3b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebc838;
+    font-family: 'Merriweather', serif;
 }
 
 .design8 .image-container8 img {
+    width: 50px;
+    height: auto;
     transition: transform 1s;
 }
 
@@ -202,66 +298,97 @@ nav button:active {
 }
 
 .design8 nav button {
-    transition: transform 1s;
+    background-color: #d8c75a;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
 }
 
 .design8 nav button:hover {
-    transform: rotate(360deg);
+    background-color: #43a047;
 }
 
-/* Design 9 specific styles */
+/* Design 9 */
 .design9 {
-    background-color: #c5cae9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #993f50;
+    font-family: 'Playfair Display', serif;
 }
 
-.design9 .image-containeraa img,
-.design9 .box p {
+.design9 .box img {
+    width: 50px;
+    height: auto;
     transition: transform 1s;
 }
 
-.design9 .image-containeraa img:hover,
-.design9 .box p:hover {
+.design9 .box img:hover {
     transform: rotate(360deg);
 }
 
+.design9 p {
+    margin: 10px 0;
+    color: #aa243d;
+    font-size: 20px;
+}
+
+.design9 input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+}
+
 .design9 .icon-containerqwe img {
+    width: 30px;
+    height: auto;
     transition: transform 0.5s;
 }
 
 .design9 .icon-containerqwe img:hover {
-    transform: scale(1.2);
+    transform: rotate(90deg);
 }
 
-/* Design 10 specific styles */
+/* Design 10 */
 .design10 {
-    background-color: #e1bee7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9c2f53;
+    font-family: 'Oswald', sans-serif;
 }
 
 .design10 .box img {
-    transition: transform 0.3s;
+    width: 50px;
+    height: auto;
+    transition: transform 0.5s;
 }
 
 .design10 .box img:hover {
-    transform: skew(10deg);
+    transform: skewX(20deg);
 }
 
 .design10 nav button {
-    transition: transform 0.3s, font-size 0.3s;
+    background-color: #eb699a;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.2s, background-color 0.2s;
 }
 
 .design10 nav button:hover {
-    transform: skew(10deg);
-    font-size: 1.2em;
+    transform: skewY(10deg);
+    background-color: #fb2d37;
 }
 
-.design10 .icon-containerrr img,
-.design10 .icon-containertt img,
-.design10 .icon-containerxx img {
-    transition: filter 0.3s;
-}
-
-.design10 .icon-containerrr img:hover,
-.design10 .icon-containertt img:hover,
-.design10 .icon-containerxx img:hover {
-    filter: brightness(1.2);
+.design10 .box .icon-containerrr img,
+.design10 .box .icon-containertt img,
+.design10 .box .icon-containerxx img {
+    width: 30px;
+    height: auto;
+    margin: 5px;
 }
