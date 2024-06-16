@@ -9,7 +9,7 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">SEATWORK 3</h3>
+  <h3 align="center">SEATWORK 3 Footer & Header</h3>
 </div>
 <!-- TODO: This is all about making a Header and Footer, Come and join me. -->
 <div align="center">
@@ -61,12 +61,13 @@ Description of the project in details.
 
 Guiding Question:
 
-- What is the project: The project focuses on the design of website headers and footers. It showcases various design examples from different websites and includes animations on other sections of the pages. Additionally, it explores innovative and creative approaches to enhance the visual appeal and functionality of these crucial website elements.
+- What is the project: 
+The project focuses on the design of website headers and footers. It showcases various design examples from different websites and includes animations on other sections of the pages. Additionally, it explores innovative and creative approaches to enhance the visual appeal and functionality of these crucial website elements.
 
-- Whats the purpose: The purpose of the project is to show how to design good headers and footers for websites. It includes different design examples and animations to inspire web designers and improve user experience.
+- Whats the purpose: 
+The purpose of the project is to show how to design good headers and footers for websites. It includes different design examples and animations to inspire web designers and improve user experience.
 
 - What are key components:The key components of the project include:
-
 Design Examples: Various styles and examples of website headers and footers.
 Animations: Interactive elements and animations that enhance other parts of the website.
 Visual Appeal: Techniques to make headers and footers visually attractive.
